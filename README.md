@@ -1,2 +1,1 @@
-# Robust_Retinal_HSI_NMF
-MATLAB pipeline for retinal HSI: optional SG pre-smoothing, QE correction, and MNF denoising, followed by NMF unmixing to components, abundance maps, and RGB composites.
+Robust_Retinal_HSI_NMF is a MATLAB pipeline for retinal hyperspectral imaging (HSI). It supports optional Savitzky–Golay pre-smoothing, optional quantum-efficiency (QE) correction (e.g., Hamamatsu back-thinned 450–700 nm via CSV/XLS/XLSX), and optional MNF denoising prior to analysis. The processed cube is then decomposed by NMF (typically 4 components) to produce spectral components, abundance maps, and an RGB composite highlighting dominant signals.
